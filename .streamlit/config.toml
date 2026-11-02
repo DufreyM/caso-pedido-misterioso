@@ -1,0 +1,53 @@
+# Paleta "Grupo 6": tomada de la presentación (azul real + turquesa) y ampliada con coral y ámbar.
+# Los 4 colores de gráficas pasan el validador de daltonismo y contraste (>= 3:1 sobre blanco).
+[theme]
+base = "light"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+headingFontWeights = [800, 800, 700, 700, 600, 600]
+
+primaryColor = "#1F4FD8"            # azul real
+backgroundColor = "#F5F7FD"         # fondo
+secondaryBackgroundColor = "#EAF0FF" # hielo: entradas, pestañas
+textColor = "#0E1B4D"               # tinta (azul marino)
+linkColor = "#1F4FD8"
+borderColor = "#D6DEF3"
+showWidgetBorder = true
+baseRadius = "0.75rem"
+buttonRadius = "full"               # botones en píldora, como en las diapositivas
+
+chartCategoricalColors = ["#1F4FD8", "#E04A4F", "#0E9384", "#D08300"]
+dataframeHeaderBackgroundColor = "#EAF0FF"
+
+# Alertas y variaciones de st.metric
+blueColor = "#1F4FD8"
+blueBackgroundColor = "#E3EBFF"
+blueTextColor = "#173BA6"
+greenColor = "#0E9384"
+greenBackgroundColor = "#DDF4F0"
+greenTextColor = "#0A6B60"
+orangeColor = "#D08300"
+orangeBackgroundColor = "#FFF2D9"
+orangeTextColor = "#8A5600"
+yellowColor = "#D08300"
+yellowBackgroundColor = "#FFF2D9"
+yellowTextColor = "#8A5600"
+redColor = "#E04A4F"
+redBackgroundColor = "#FDE6E6"
+redTextColor = "#A3242A"
+
+[theme.sidebar]
+backgroundColor = "#0E1B4D"          # azul marino
+secondaryBackgroundColor = "#1A2B66"
+textColor = "#E6ECFF"
+borderColor = "#2A3D80"
+primaryColor = "#2DD4BF"             # turquesa de los números de las diapositivas
+linkColor = "#2DD4BF"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
